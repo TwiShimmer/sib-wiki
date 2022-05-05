@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组 - 主页
 description: 科学技术是第一生产力
 published: true
-date: 2022-05-05T12:47:02.662Z
+date: 2022-05-05T14:24:01.746Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -44,6 +44,6 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
 {.is-info}
 
-> 更多插件，敬请期待...
+> 我们还准备了强化系统、卸魔系统、战令系统等，敬请期待...
 {.is-success}
 
