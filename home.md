@@ -1,20 +1,20 @@
 ---
 title: 夏日冰熊开发组 - 主页
-description: 疯狂星期四，谁请我吃
+description: 目前形势不是小好，是大好！
 published: true
-date: 2022-05-05T14:24:49.419Z
+date: 2022-05-05T15:15:51.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
 ---
 
-# Welcome.
-<p class="group_title">欢迎来到夏日冰熊开发组。</p>
-【联系方式】QQ: 1294243258 群: 953201353
+<h1 class="welcome_title">Welcome.</h1>
+<p class="unchangedline">欢迎来到 <p class="group_welcome">夏日冰熊</p> 开发组。</p>
+<p class="unchangedline"><p class="author">【联系方式】白熊QQ：1294243258 售后服务群: 953201353</p>
 
 
 # 作品
-> 目前，我们致力于新一代附魔插件 NereusOpus 的开发。
+> 目前，我们致力于新一代附魔插件 **NereusOpus** 的开发。
 > 同时，我们会带来一些轻量级小功能插件，如ExpPump, AskExecutions, RealCurrency等。
 {.is-warning}
 ## 作品列表
