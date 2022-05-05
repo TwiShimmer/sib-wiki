@@ -1,8 +1,8 @@
 ---
 title: 夏日冰熊开发组 - 主页
-description: 科学技术是第一生产力
+description: 疯狂星期四，谁请我吃
 published: true
-date: 2022-05-05T14:24:01.746Z
+date: 2022-05-05T14:24:49.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
