@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组 - 主页
 description: 目前形势不是小好，是大好！
 published: true
-date: 2022-05-07T13:11:41.442Z
+date: 2022-05-07T14:33:52.755Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -24,7 +24,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
 {.is-success}
 
-> **ExpPump 经验泵 （88￥ 可选 全端口28￥）|** 完成度：<progress value="97" max="100" contenteditable="false"></progress>
+> **ExpPump 经验泵 （88￥ 可选 全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
 ★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
