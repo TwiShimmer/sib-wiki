@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组 - 主页
 description: 目前形势不是小好，是大好！
 published: true
-date: 2022-05-05T15:18:30.346Z
+date: 2022-05-07T13:02:35.101Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -18,13 +18,13 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > 同时，我们会带来一些轻量级小功能插件，如ExpPump, AskExecutions, RealCurrency等。
 {.is-warning}
 ## 作品列表
-<a href="/NereusOpus 涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
+<a href="/NereusOpus涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
 > **[NereusOpus 涅柔斯之作](/NereusOpus\ 涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选 全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
 ★ <samp>全面且强大的附魔系统，500+附魔，各类自定义属性</samp>
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
 {.is-success}
 
-> **ExpPump 经验泵 （~~88￥~~ 66￥ 可选 全端口28￥）|** 完成度：<progress value="95" max="100" contenteditable="false"></progress>
+> **ExpPump 经验泵 （~~88￥~~ 66￥ 可选 全端口28￥）|** 完成度：<progress value="97" max="100" contenteditable="false"></progress>
 ★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
