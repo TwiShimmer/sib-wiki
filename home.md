@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组 - 主页
 description: 目前形势不是小好，是大好！
 published: true
-date: 2022-05-07T13:02:35.101Z
+date: 2022-05-07T13:11:41.442Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -24,19 +24,19 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
 {.is-success}
 
-> **ExpPump 经验泵 （~~88￥~~ 66￥ 可选 全端口28￥）|** 完成度：<progress value="97" max="100" contenteditable="false"></progress>
+> **ExpPump 经验泵 （88￥ 可选 全端口28￥）|** 完成度：<progress value="97" max="100" contenteditable="false"></progress>
 ★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
 
+> **AskExecutions 问答系统 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
+★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
+★ 让指令的补全脚本化，使数字、玩家名等值得输入更加人性化
+{.is-info}
+
 > **CustomJobs 竞技职业 |** 完成度：<progress value="30" max="100" contenteditable="false"></progress>
 ★ 强大的职业/英雄系统，支持技能树升级和表达式构造
 ★ 初始十职业自由搭配，可通过其他插件导入实现更多职业
-{.is-info}
-
-> **AskExecutions 问答系统 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
-★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
-★ 让指令的补全脚本化，使数字、玩家名等值得输入更加人性化
 {.is-info}
 
 > **RealCurrency 实体货币 |** 完成度：<progress value="10" max="100" contenteditable="false"></progress>
