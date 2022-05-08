@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T02:20:24.099Z
+date: 2022-05-08T02:21:35.766Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -29,10 +29,10 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
 
-> **AskExecutions 问答系统 |** 完成度：<progress value="40" max="100" contenteditable="false"></progress>
+> **AskExecutions 问答处决器 （88￥ 可选 全端口28￥）|** 完成度：<progress value="40" max="100" contenteditable="false"></progress>
 ★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
 ★ 让指令的补全脚本化，使数字、玩家名等值得输入更加人性化
-{.is-info}
+{.is-success}
 
 > **CustomJobs 竞技职业 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
 ★ 强大的职业/英雄系统，支持技能树升级和表达式构造
