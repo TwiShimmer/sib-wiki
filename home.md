@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T06:14:03.336Z
+date: 2022-05-08T06:18:28.103Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -15,21 +15,21 @@ dateCreated: 2022-04-06T02:59:20.150Z
 
 # 作品
 > 目前，我们致力于新一代附魔插件 **NereusOpus** 的开发。
-> 同时，我们会带来一些轻量级小功能插件，如ExpPump, AskExecutions, RealCurrency等。
+> 同时，我们会带来一些轻量级小功能插件。
 {.is-warning}
 ## 作品列表
 <a href="/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
-> **[NereusOpus 涅柔斯之作](/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选 全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
+> **[NereusOpus 涅柔斯之作](/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选-全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
 ★ <samp>全面且强大的附魔系统，500+附魔，各类自定义属性</samp>
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
 {.is-success}
 
-> **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选 全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
+> **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选-全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
 ★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
 
-> **AskExecutions 问答处决器 （~~88￥~~88￥ 可选 全端口28￥）|** 完成度：<progress value="40" max="100" contenteditable="false"></progress>
+> **AskExecutions 交互界面 （88￥ 可选-全端口28￥）|** 完成度：<progress value="70" max="100" contenteditable="false"></progress>
 ★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
 ★ 让指令的补全脚本化，使数字、玩家名等值的输入更加人性化
 {.is-info}
@@ -37,7 +37,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > **RealCurrency 实体货币 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
-{.is-info}
+{.is-danger}
 
 > **CustomJobs 竞技职业 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
 ★ 强大的职业/英雄系统，支持技能树升级和表达式构造
@@ -45,8 +45,8 @@ dateCreated: 2022-04-06T02:59:20.150Z
 {.is-danger}
 
 > **SeasonCredits 赛季积分（战令系统） |** 完成度：<progress value="0" max="100" contenteditable="false"></progress>
-★ 让服务器有赛季积分之路或是战令系统，积累限时货币兑换奖励
-★ 支持分级奖励，支持和所有任务等插件适配
+★ 让服务器有赛季积分之路或战令系统，积累限时货币兑换奖励
+★ 支持分级奖励，支持和所有任务类插件适配
 {.is-danger}
 
 > 我们还准备了强化系统、卸魔系统、成就系统等，敬请期待...
