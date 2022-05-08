@@ -2,7 +2,7 @@
 title: Config.yml - 总设置
 description: 
 published: true
-date: 2022-05-08T00:43:20.954Z
+date: 2022-05-08T00:43:56.045Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
@@ -83,4 +83,4 @@ pumps:
       - "PX-3-A"
       - "PX-3-B"
       - "PX-3-C"
-    cd: 14400```
+    cd: 14400
