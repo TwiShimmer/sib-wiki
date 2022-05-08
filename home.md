@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T06:18:28.103Z
+date: 2022-05-08T09:22:54.413Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -29,10 +29,10 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
 
-> **AskExecutions 交互界面 （88￥ 可选-全端口28￥）|** 完成度：<progress value="70" max="100" contenteditable="false"></progress>
-★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
-★ 让指令的补全脚本化，使数字、玩家名等值的输入更加人性化
-{.is-info}
+> **AskExecutions 交互界面 （88￥ 可选-全端口28￥）|** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
+★ 使数字、玩家名、字符串、布尔的输入更加人性化
+★ 支持自定义脚本，一条指令写出批量式出售各种商品的系统商店
+{.is-success}
 
 > **RealCurrency 实体货币 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
