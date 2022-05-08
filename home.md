@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T09:23:58.779Z
+date: 2022-05-08T09:24:18.882Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -15,7 +15,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 
 # 作品
 > 目前，我们致力于新一代附魔插件 **NereusOpus** 的开发。
-> 同时，我们会带来一些轻量级小功能插件。
+> 同时，我们会带来一些轻量级小功能插件（大概每周一款）。
 {.is-warning}
 ## 作品列表
 <a href="/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
@@ -34,10 +34,10 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ 支持自定义脚本，一条指令写出批量式出售各种商品的系统商店
 {.is-success}
 
-> **RealCurrency 实体货币 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
+> **RealCurrency 实体货币 |** 完成度：<progress value="30" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
-{.is-danger}
+{.is-info}
 
 > **CustomJobs 竞技职业 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
 ★ 强大的职业/英雄系统，支持技能树升级和表达式构造
