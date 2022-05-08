@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T02:21:35.766Z
+date: 2022-05-08T02:22:30.551Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -32,23 +32,23 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > **AskExecutions 问答处决器 （88￥ 可选 全端口28￥）|** 完成度：<progress value="40" max="100" contenteditable="false"></progress>
 ★ 拒绝让玩家背诵指令，旨在简化菜单操作，指令书写
 ★ 让指令的补全脚本化，使数字、玩家名等值得输入更加人性化
-{.is-success}
+{.is-info}
 
 > **CustomJobs 竞技职业 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
 ★ 强大的职业/英雄系统，支持技能树升级和表达式构造
 ★ 初始十职业自由搭配，可通过其他插件导入实现更多职业
-{.is-info}
+{.is-danger}
 
 > **RealCurrency 实体货币 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
-{.is-info}
+{.is-danger}
 
 > **SeasonCredits 赛季积分（战令系统） |** 完成度：<progress value="0" max="100" contenteditable="false"></progress>
 ★ 让服务器有赛季积分之路或是战令系统，积累限时货币兑换奖励
 ★ 支持分级奖励，支持和所有任务等插件适配
-{.is-info}
+{.is-danger}
 
 > 我们还准备了强化系统、卸魔系统、战令系统等，敬请期待...
-{.is-success}
+
 
