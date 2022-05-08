@@ -2,7 +2,7 @@
 title: fuels.yml - 燃料库
 description: 
 published: true
-date: 2022-05-08T00:54:50.927Z
+date: 2022-05-08T00:55:48.422Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:29:50.611Z
@@ -52,13 +52,13 @@ PX-3-C:
 ## 游戏内添加燃料
 拿着需要添加的物品，输入/ep createFuel <内部ID> <数量> <显示名称>即可快速添加至燃料库。
 举个例子，添加64个钻石作为一种燃料：
-![燃料库3.png](/exppump/燃料库3.png)
-![燃料库2.png](/exppump/燃料库2.png)
+![燃料库3.png](/exppump/简介/燃料库3.png)
+![燃料库2.png](/exppump/简介/燃料库2.png)
 
 ## 游戏内删除
 输入/ep deleteFuel <内部ID>即可删除对应燃料
-![燃料库4.png](/exppump/燃料库4.png)
+![燃料库4.png](/exppump/简介/燃料库4.png)
 
 ## 游戏内查看燃料库
 输入/ep checkFuel即可查看所有燃料
-![燃料库1.png](/exppump/燃料库1.png)
+![燃料库1.png](/exppump/简介/燃料库1.png)
