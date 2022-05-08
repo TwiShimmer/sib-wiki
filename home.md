@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T01:26:01.622Z
+date: 2022-05-08T02:20:24.099Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -18,8 +18,8 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > 同时，我们会带来一些轻量级小功能插件，如ExpPump, AskExecutions, RealCurrency等。
 {.is-warning}
 ## 作品列表
-<a href="/NereusOpus涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
-> **[NereusOpus 涅柔斯之作](/NereusOpus涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选 全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
+<a href="/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
+> **[NereusOpus 涅柔斯之作](/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选 全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
 ★ <samp>全面且强大的附魔系统，500+附魔，各类自定义属性</samp>
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
 {.is-success}
@@ -42,6 +42,11 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > **RealCurrency 实体货币 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
+{.is-info}
+
+> **SeasonCredits 赛季积分（战令系统） |** 完成度：<progress value="0" max="100" contenteditable="false"></progress>
+★ 让服务器有赛季积分之路或是战令系统，积累限时货币兑换奖励
+★ 支持分级奖励，支持和所有任务等插件适配
 {.is-info}
 
 > 我们还准备了强化系统、卸魔系统、战令系统等，敬请期待...
