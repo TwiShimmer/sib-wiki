@@ -1,14 +1,15 @@
 ---
-title: Config.yml
+title: Config.yml - 总设置
 description: 
 published: true
-date: 2022-05-08T00:33:51.362Z
+date: 2022-05-08T00:34:27.666Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
 ---
 
-```statFolder: "DefaultFolder/stats/"
+```yaml
+statFolder: "DefaultFolder/stats/"
 
 language: "zh-cn.yml"
 
