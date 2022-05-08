@@ -2,7 +2,7 @@
 title: 基础玩法
 description: 玩家该怎么操作？
 published: true
-date: 2022-05-08T00:28:37.043Z
+date: 2022-05-08T00:30:42.129Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:16:16.886Z
