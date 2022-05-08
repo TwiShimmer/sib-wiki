@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-08T09:31:34.460Z
+date: 2022-05-08T12:40:22.511Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -30,8 +30,8 @@ dateCreated: 2022-04-06T02:59:20.150Z
 {.is-success}
 
 > **AskExecutions 交互问答 （88￥ 可选-全端口28￥）|** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
-★ 使数字、玩家名、字符串、布尔的输入更加人性化
-★ 支持自定义脚本，一条指令写出批量式出售各种商品的系统商店
+★ <samp>使数字、玩家名、字符串、布尔的输入更加人性化</samp>
+★ <samp>支持自定义脚本，一条指令写出批量式出售各种商品的系统商店</samp>
 {.is-success}
 
 > **StrengthenBooks 强化系统 |** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
