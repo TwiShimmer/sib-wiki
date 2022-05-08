@@ -2,7 +2,7 @@
 title: config.yml-总设置
 description: 
 published: true
-date: 2022-05-08T06:15:27.782Z
+date: 2022-05-08T06:16:27.414Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
@@ -44,7 +44,7 @@ particle:
   #粒子效果的数量，不宜过多
   amount: 5
 #所有经验泵的设置
-#你可以自己添加，复制黏贴改改即可，请注意ID不要重复（不要出现两个PX-1或是其他相同ID）
+#你可以自己添加，复制粘贴改改即可，请注意ID不要重复（不要出现两个PX-1或是其他相同ID）
 pumps:
   #默认的PX-1
   PX-1:
