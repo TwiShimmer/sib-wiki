@@ -1,8 +1,8 @@
 ---
-title: Config.yml - 总设置
+title: config.yml - 总设置
 description: 
 published: true
-date: 2022-05-08T00:43:56.045Z
+date: 2022-05-08T00:44:11.501Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
