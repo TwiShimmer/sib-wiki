@@ -1,8 +1,8 @@
 ---
-title: fuels.yml - 燃料库
+title: fuels.yml-燃料库
 description: 
 published: true
-date: 2022-05-08T00:55:48.422Z
+date: 2022-05-08T01:25:24.923Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:29:50.611Z
