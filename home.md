@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-09T15:26:40.698Z
+date: 2022-05-09T15:26:57.869Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -36,8 +36,8 @@ dateCreated: 2022-04-06T02:59:20.150Z
 
 > **EnchantIntensifier 附魔强化 （88￥ 可选-全端口28￥）|** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
 ★ 基于附魔等级的渐进式强化书，兼容更多附魔
-★ 支持自定义成功率破碎率，附带增幅石和DEF机制
-{.is-info}
+★ 支持自定义成功率破碎率和强化物品格式，附带增幅石和DEF机制
+{.is-success}
 
 > **RealCurrency 实体货币 |** 完成度：<progress value="30" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，更便捷地设置兑换机制
