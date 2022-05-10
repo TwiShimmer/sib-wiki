@@ -2,15 +2,15 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-09T15:27:18.702Z
+date: 2022-05-10T12:08:36.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
 ---
 
-<h1 class="welcome_title">Welcome.</h1>
-<p class="unchangedline">欢迎来到</p><p class="group_welcome">夏日冰熊</p><p class="unchangedline">开发组。</p></p>
-<p class="unchangedline"><p class="author">【联系方式】白熊QQ：1294243258 售后服务群: 953201353</p>
+# Welcome.
+欢迎来到夏日冰熊开发组。
+【联系方式】白熊QQ：1294243258 售后服务群: 953201353
 
 
 # 作品
