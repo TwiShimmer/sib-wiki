@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-10T12:08:36.259Z
+date: 2022-05-12T12:18:41.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -18,10 +18,11 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > 同时，我们会带来一些轻量级小功能插件（大概每周一款）。
 {.is-warning}
 ## 作品列表
-<a href="/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介">![nereusopus_logo-小.png](/nereusopus/nereusopus_logo-小.png){.align-right}</a>
+
 > **[NereusOpus 涅柔斯之作](/NereusOpus-涅柔斯之作/涅柔斯之作-插件简介) （~~328￥~~ 288￥ 可选-全端口68￥）|** 完成度：<progress value="85" max="100" contenteditable="false"></progress>
 ★ <samp>全面且强大的附魔系统，500+附魔，各类自定义属性</samp>
 ★ <samp>支持从EcoEnchants转入，兼容AdvancedEnchantments</samp>
+<img class="icon" src="/nereusopus/nereusopus_logo-小.png"></a>
 {.is-success}
 
 > **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选-全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
