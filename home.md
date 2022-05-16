@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-05-13T12:27:12.149Z
+date: 2022-05-16T14:45:34.647Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -25,12 +25,12 @@ dateCreated: 2022-04-06T02:59:20.150Z
 <img class="icon" src="/nereusopus/nereusopus_logo-小.png"></a>
 {.is-success}
 
-> **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选-全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
+> **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选-全端口28￥）**
 ★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
 {.is-success}
 
-> **[AskExecutions 交互界面](/AskExecutions-交互界面/交互界面-插件简介) （88￥ 可选-全端口28￥）|** 完成度：<progress value="100" max="100" contenteditable="false"></progress>
+> **[AskExecutions 交互界面](/AskExecutions-交互界面/交互界面-插件简介) （88￥ 可选-全端口28￥）**
 ★ <samp>使数字、玩家名、字符串、布尔的输入更加人性化</samp>
 ★ <samp>支持自定义脚本，一条指令写出批量式出售各种商品的系统商店</samp>
 {.is-success}
