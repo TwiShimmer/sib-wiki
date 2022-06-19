@@ -2,7 +2,7 @@
 title: config.yml-总设置
 description: 
 published: true
-date: 2022-06-19T08:17:00.248Z
+date: 2022-06-19T08:17:38.718Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
@@ -90,9 +90,10 @@ pumps:
   PX-4:
     name: "PX-4废话泵"
     type: CMD
-    duration: 10
+    speed: 10
+    #指令（自行修改添加，{player}代表玩家名）
     cmds:
-      - "msg {%}player} 每十秒说一句话"
+      - "msg {player} 每十秒说一句话"
     maxShare: 0
     maxDuration: 7200
     increase: 0
