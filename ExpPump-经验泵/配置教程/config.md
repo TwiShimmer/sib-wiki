@@ -2,13 +2,13 @@
 title: config.yml-总设置
 description: 
 published: true
-date: 2022-06-19T05:40:25.897Z
+date: 2022-06-19T05:40:32.036Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
 ---
 
-## 见以下配置中的注释
+## 见注释
 ```yaml
 #插件数据存储所在的文件夹（绝对路径，DefaultFolder代替插件默认配置文件夹）
 statFolder: "DefaultFolder/stats/"
