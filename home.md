@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-06-18T13:43:50.486Z
+date: 2022-06-19T03:12:49.725Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -32,7 +32,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 
 > **[AskExecutions 交互界面](/AskExecutions-交互界面/交互界面-插件简介) （128￥ 可选-全端口38￥）**
 ★ <samp>使数字、玩家名、字符串、布尔的输入更加人性化</samp>
-★ <samp>支持自定义脚本，一条指令写出批量式出售各种商品的系统商店</samp>
+★ <samp>支持自定义脚本，你想过一条指令写出整个商店系统么？</samp>
 {.is-success}
 
 > **EnchantIntensifier 附魔强化 （88￥ 可选-全端口28￥）|** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
