@@ -2,7 +2,7 @@
 title: fuels.yml-燃料库
 description: 
 published: true
-date: 2022-06-19T05:43:00.732Z
+date: 2022-06-19T05:43:07.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:29:50.611Z
@@ -29,8 +29,8 @@ dateCreated: 2022-05-08T00:29:50.611Z
 ## 游戏内添加燃料
 拿着需要添加的物品，输入/ep createFuel <内部ID> <显示名称> <时间>即可快速添加至燃料库。
 
-## 游戏内删除
+## 游戏内删除燃料
 输入/ep deleteFuel <内部ID>即可删除对应燃料
 
-## 游戏内查看燃料库
+## 游戏内查看所有燃料
 输入/ep checkFuel即可查看所有燃料
