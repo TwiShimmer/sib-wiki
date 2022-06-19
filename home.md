@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-06-19T08:20:53.411Z
+date: 2022-06-19T08:22:26.508Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -45,7 +45,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ 支持分级奖励，支持和所有任务类插件适配
 {.is-info}
 
-> **RealCurrency 实体货币 |** 完成度：<progress value="30" max="100" contenteditable="false"></progress>
+> **RealCurrency 实体货币 |** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
 ★ 让虚拟的游戏币与点券变成物品，便捷设置兑换机制
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
 {.is-info}
