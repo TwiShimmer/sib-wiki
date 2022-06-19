@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-06-19T05:55:05.208Z
+date: 2022-06-19T07:23:06.302Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -26,8 +26,8 @@ dateCreated: 2022-04-06T02:59:20.150Z
 {.is-success}
 
 > **[ExpPump 经验泵](/ExpPump-经验泵/经验泵) （88￥ 可选-全端口28￥）**
-★ <samp>为玩家提供更加便捷的经验获取方式，拒绝无脑挂机池</samp>
-★ <samp>自由添加材料与经验泵策略，提供多样的解锁方式</samp>
+★ <samp>为玩家提供更加便捷的经验、点券、物品、游戏币获取方式，拒绝无脑挂机池</samp>
+★ <samp>自由添加材料与输出策略，提供多样的解锁方式</samp>
 {.is-success}
 
 > **[AskExecutions 交互界面](/AskExecutions-交互界面/交互界面-插件简介) （128￥ 可选-全端口38￥）**
