@@ -2,7 +2,7 @@
 title: config.yml-总设置
 description: 
 published: true
-date: 2022-06-19T05:40:13.027Z
+date: 2022-06-19T05:40:25.897Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
@@ -14,8 +14,6 @@ dateCreated: 2022-05-08T00:32:49.542Z
 statFolder: "DefaultFolder/stats/"
 #使用的语言
 language: "zh-cn.yml"
-#玩家默认自带的经验泵
-defaultPump: "PX-1"
 #数据存储周期（秒），不建议设置过短
 savePeriods: 1200
 #是否允许玩家同时接受多个经验泵的分享，或是一边开自己的经验泵，一边获得其他玩家的分享
