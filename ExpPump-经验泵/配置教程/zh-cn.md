@@ -2,7 +2,7 @@
 title: zh-cn.yml-语言文件
 description: 
 published: true
-date: 2022-05-08T01:25:37.514Z
+date: 2022-06-19T05:43:39.371Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:58:07.317Z
@@ -45,13 +45,11 @@ help:
   - "§aExpPump §7插件指令 §aMade By 南外丶仓鼠"
   - "§6★ §7 /ep help - §e查看指令帮助"
   - "§6★ §7 /ep menu [玩家] - §e打开经验泵菜单"
-  - "§6★ §7 /ep addPump <型号> [玩家] - §e给予玩家对应型号的经验泵"
-  - "§6★ §7 /ep delPump <型号> [玩家] - §e删除玩家对应型号的经验泵"
   - "§6★ §7 /ep setPump <型号> [玩家] - §e调整玩家当前经验泵的型号"
   - "§6★ §7 /ep addFuel <时间(秒)> [玩家] - §e增加玩家当前经验泵的时间"
   - "§6★ §7 /ep addShare <对象玩家> [玩家] - §e给一个玩家增加分享"
   - "§6★ §7 /ep delShare <对象玩家> [玩家] - §e给一个玩家取消分享"
-  - "§6★ §7 /ep createFuel <ID> <数量> <名字> - §e添加手上的物品到材料库"
+  - "§6★ §7 /ep createFuel <ID> <名字> <时间> - §e添加手上的物品到材料库"
   - "§6★ §7 /ep deleteFuel <ID> - §e删除对应ID的材料"
   - "§6★ §7 /ep checkFuel - §e查看所有材料"
 ```
