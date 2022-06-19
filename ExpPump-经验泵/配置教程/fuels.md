@@ -2,13 +2,13 @@
 title: fuels.yml-燃料库
 description: 
 published: true
-date: 2022-06-19T05:42:55.011Z
+date: 2022-06-19T05:43:00.732Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:29:50.611Z
 ---
 
-## 见以下配置中的注释
+## fuels.yml
 ```yaml
 #燃料的内部ID，不可重复，可填写在config.yml经验泵的燃料列表中。
 钻石块:
