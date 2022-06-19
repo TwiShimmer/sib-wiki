@@ -2,7 +2,7 @@
 title: config.yml-总设置
 description: 
 published: true
-date: 2022-05-08T06:16:27.414Z
+date: 2022-06-19T05:40:13.027Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T00:32:49.542Z
@@ -50,37 +50,24 @@ pumps:
   PX-1:
     #经验泵的名称
     name: "PX-1型经验泵"
-    #经验泵的周期（秒）
-    duration: 7200
     #经验泵每秒钟输出多少点经验（总输出）
     speed: 4
     #经验泵最多分享给多少玩家
     maxShare: 2
     #每多分享给一位玩家，经验泵总输出增加多少（默认是15%）
     increase: 0.15
-    #经验泵所需要的燃料，这里自由添加已经燃料库中物品的ID
-    fuels:
+    #经验泵禁用的燃料，除了这个燃料，燃料库里其他燃料都可以用于启动经验泵
+    deniedFuels:
       - "PX-1-A"
-    #经验泵的冷却时间（秒）
-    cd: 3600
   PX-2:
     name: "PX-2型经验泵"
-    duration: 14400
     speed: 8
     maxShare: 4
     increase: 0.2
-    fuels:
-      - "PX-2-A"
-      - "PX-2-B"
-    cd: 7200
+    deniedFuels: []
   PX-3:
     name: "PX-3型经验泵"
-    duration: 28800
     speed: 12
     maxShare: 8
     increase: 0.25
-    fuels:
-      - "PX-3-A"
-      - "PX-3-B"
-      - "PX-3-C"
-    cd: 14400
+    deniedFuels: []
