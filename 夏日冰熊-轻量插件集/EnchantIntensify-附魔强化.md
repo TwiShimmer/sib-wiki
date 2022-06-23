@@ -2,7 +2,7 @@
 title: EnchantIntensify - 附魔强化插件
 description: 
 published: true
-date: 2022-06-19T12:19:01.963Z
+date: 2022-06-23T12:43:19.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-19T12:12:43.162Z
@@ -16,7 +16,7 @@ dateCreated: 2022-06-19T12:12:43.162Z
 ## 💰 插件购买
 购买前请先阅读[购买须知](/购买须知)
 EnchantIntensify本体每份128￥，全端口额外需花费38￥
-> 目前本插件处于预售阶段，预售期内仅需88￥即可购买本体。
+> 本插件处于预售阶段，预售期内仅需88￥即可购买本体，全端口权限仅需28￥。
 预售时间：**2022年6月19日 00:00 - 2022年6月23日 23:59**
 {.is-warning}
 
