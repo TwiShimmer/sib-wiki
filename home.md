@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-06-19T08:22:26.508Z
+date: 2022-06-23T15:35:50.235Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -25,7 +25,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 <img class="icon" src="/nereusopus/nereusopus_logo-小.png"></a>
 {.is-success}
 
-> **[ExpPump 物质泵](/ExpPump-经验泵/物质泵) （128￥ 可选-全端口38￥）**
+> **[ExpPump 物质泵](/ExpPump-物质泵/物质泵) （128￥ 可选-全端口38￥）**
 ★ <samp>为玩家提供更加便捷的经验、点券、物品、游戏币获取方式，拒绝无脑挂机池</samp>
 ★ <samp>自由添加材料与输出策略，提供多样的解锁方式</samp>
 {.is-success}
@@ -35,19 +35,19 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>支持自定义脚本，你想过一条指令写出整个商店系统么？</samp>
 {.is-success}
 
-> **EnchantIntensifier 附魔强化 （88￥ 可选-全端口28￥）|** 完成度：<progress value="50" max="100" contenteditable="false"></progress>
+> **[EnchantIntensifier 附魔强化](/EnchantIntensify-附魔强化/主页) （88￥ 可选-全端口28￥）|** 完成度：<progress value="65" max="100" contenteditable="false"></progress>
 ★ <samp>基于附魔等级的渐进式强化书，兼容更多附魔</samp>
 ★ <samp>支持自定义成功率破碎率和强化物品格式，附带增幅石和DEF机制</samp>
 {.is-success}
 ### 即将推出
+> **[RealMoney-实体货币](/夏日冰熊-轻量插件集/RealMoney-实体货币) |** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
+★ 让虚拟的游戏币与点券变成物品，便捷设置兑换机制
+★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
+{.is-info}
+
 > **SeasonCredits 赛季积分（战令系统） |** 完成度：<progress value="0" max="100" contenteditable="false"></progress>
 ★ 让服务器按赛季划分积分之路或战令系统，积累限时货币兑换奖励
 ★ 支持分级奖励，支持和所有任务类插件适配
-{.is-info}
-
-> **RealCurrency 实体货币 |** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
-★ 让虚拟的游戏币与点券变成物品，便捷设置兑换机制
-★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
 {.is-info}
 ### 远期规划
 > **CustomJobs 竞技职业 |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
