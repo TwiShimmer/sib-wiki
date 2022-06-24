@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-06-23T15:36:17.275Z
+date: 2022-06-24T14:26:47.295Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -45,7 +45,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ 高度自定义实体货币格式，取出与存入过程全部基于GUI，支持批量操作
 {.is-info}
 
-> **SeasonCredits 赛季积分（战令系统） |** 完成度：<progress value="0" max="100" contenteditable="false"></progress>
+> **SeasonCredits 赛季积分（战令系统） |** 敬 请 期 待
 ★ 让服务器按赛季划分积分之路或战令系统，积累限时货币兑换奖励
 ★ 支持分级奖励，支持和所有任务类插件适配
 {.is-info}
