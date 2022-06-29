@@ -1,0 +1,3009 @@
+<!--
+title: NereusOpus - 附魔大全
+description: 
+published: true
+date: 2022-06-29T01:58:48.736Z
+tags: 
+editor: code
+dateCreated: 2022-06-27T05:42:12.532Z
+-->
+
+<pre v-pre="true" class="prismjs line-numbers"><code class="language-yaml">'0':
+  type: 被动
+  rarity: 罕见
+  name: 过滤
+  max: 4
+  id: Respirator
+  conflict: ''
+  target: 头盔
+  description: 受到龙息的伤害大幅降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.0/'
+'1':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 海洋'
+  max: 1
+  id: NautilusArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生潮涌能量的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'2':
+  type: 被动
+  rarity: 稀世
+  name: 定力
+  max: 3
+  id: Marksman
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢在一定时间内无视重力
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/'
+'3':
+  type: 原版
+  rarity: 罕见
+  name: 保护
+  max: 4
+  id: protection
+  conflict: '摔落保护; 弹射物保护; 火焰保护; '
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 减少多数的伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'4':
+  type: 原版
+  rarity: 罕见
+  name: 饵钓
+  max: 3
+  id: lure
+  conflict: ''
+  target: 钓鱼竿
+  description: 减少钓鱼所需的时间
+  enable: true
+  grindstoneable: true
+  params: ''
+'5':
+  type: 被动
+  rarity: 史诗
+  name: 暴戾
+  max: 6
+  id: Criticals
+  conflict: '破军; '
+  target: 斧, 剑
+  description: 暴击伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'6':
+  type: 被动
+  rarity: 传奇
+  name: 重铸
+  max: 3
+  id: Indestructibility
+  conflict: '耐久; '
+  target: 所有物品
+  description: 其物品耐久得到大幅度提升
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 60.0%/'
+'7':
+  type: 诅咒
+  rarity: 诅咒
+  name: 仇恶诅咒
+  max: 1
+  id: CallingCurse
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 使装备被穿戴时会激怒周围的怪物
+  enable: true
+  grindstoneable: false
+  params: '范围: 20.0格/生效周期: 100.0刻/'
+'8':
+  type: 被动
+  rarity: 稀世
+  name: 爆裂
+  max: 2
+  id: Instability
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢在落点产生爆炸冲击波
+  enable: true
+  grindstoneable: true
+  params: '是否破坏方块: (false)/是否引发火焰: (false)/规模/力度: 1.0/'
+'9':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 闪电'
+  max: 1
+  id: ZapArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生闪电粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'10':
+  type: 原版
+  rarity: 精良
+  name: 火矢
+  max: 1
+  id: flame
+  conflict: ''
+  target: 弓
+  description: 使射出的箭矢使目标着火
+  enable: true
+  grindstoneable: true
+  params: ''
+'11':
+  type: 被动
+  rarity: 罕见
+  name: 收获
+  max: 4
+  id: Arborist
+  conflict: '精准采集; '
+  target: 斧, 剪刀
+  description: 从树叶中获得更多木棍、苹果
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 20.0%/'
+'12':
+  type: 原版
+  rarity: 罕见
+  name: 火焰保护
+  max: 4
+  id: fire_protection
+  conflict: '摔落保护; 弹射物保护; 保护; '
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 减少火焰伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'13':
+  type: 被动
+  rarity: 传奇
+  name: 膏肓
+  max: 6
+  id: Lesion
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率使对手持续流血
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/真实伤害: 3.0点/触发几率: 18.0%/是否跟随攻击冷却: (true)/生效周期: 20.0刻/'
+'14':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 烟雾'
+  max: 1
+  id: SmokeArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生烟雾粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'15':
+  type: 被动
+  rarity: 传奇
+  name: 旺盛
+  max: 2
+  id: Thrive
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 最大生命值提升
+  enable: true
+  grindstoneable: true
+  params: '最大血量增加: 4.0点/'
+'16':
+  type: 被动
+  rarity: 史诗
+  name: 压迫
+  max: 4
+  id: Proximity
+  conflict: ''
+  target: 剑
+  description: 在触发范围内，与对手的距离越近伤害越高
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×(1+0.1×4/(距离+1.0))/'
+'17':
+  type: 被动
+  rarity: 史诗
+  name: 偏激
+  max: 3
+  id: Introversion
+  conflict: '亡灵杀手; 锋利; 利刃; 终末; 拆弹; 节肢杀手; '
+  target: 斧, 剑
+  description: 对玩家造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'18':
+  type: 原版
+  rarity: 普通
+  name: 节肢杀手
+  max: 5
+  id: bane_of_arthropods
+  conflict: '亡灵杀手; 锋利; '
+  target: 斧, 剑
+  description: 增加对节肢动物的伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'19':
+  type: 被动
+  rarity: 史诗
+  name: 破釜
+  max: 3
+  id: Invigoration
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 在低血量时造成的伤害提升并受到的伤害降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.4/最低血量: (0.1×3×最大血量)点/'
+'20':
+  type: 原版
+  rarity: 史诗
+  name: 抢夺
+  max: 3
+  id: looting
+  conflict: ''
+  target: 剑
+  description: 增加生物掉落物的数量或概率
+  enable: true
+  grindstoneable: true
+  params: ''
+'21':
+  type: 原版
+  rarity: 罕见
+  name: 效率
+  max: 5
+  id: efficiency
+  conflict: ''
+  target: 斧, 铲, 剪刀, 锄, 镐
+  description: 加快挖掘速度
+  enable: true
+  grindstoneable: true
+  params: ''
+'22':
+  type: 被动
+  rarity: 罕见
+  name: 致盲
+  max: 3
+  id: Blind
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢有概率致盲命中对象
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'23':
+  type: 主动
+  rarity: 稀世
+  name: 咒怨
+  max: 3
+  id: Missile
+  conflict: ''
+  target: 斧, 剑
+  description: '§e右击§7发射一颗凋零骷髅头（冷却时间: §a60秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '粒子效果: (VILLAGER_ANGRY)/粒子数量: 1.0/释放音效: (ENTITY_WITHER_SHOOT)/冷却时间: 60.0秒/加速度:
+    3.0格/秒²/'
+'24':
+  type: 被动
+  rarity: 史诗
+  name: 原生
+  max: 5
+  id: Plasmic
+  conflict: '导电; '
+  target: 剑
+  description: 对穿着钻石和下界合金装备的目标的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×(1+0.02×5×数量)/'
+'25':
+  type: 原版
+  rarity: 罕见
+  name: 快速装填
+  max: 3
+  id: quick_charge
+  conflict: ''
+  target: 弩
+  description: 减少弩的填装时间
+  enable: true
+  grindstoneable: true
+  params: ''
+'26':
+  type: 被动
+  rarity: 罕见
+  name: 耐性
+  max: 4
+  id: Stamina
+  conflict: ''
+  target: 靴子
+  description: 奔跑时饱食损失降低
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/'
+'27':
+  type: 诅咒
+  rarity: 诅咒
+  name: 霉运诅咒
+  max: 3
+  id: MisfortuneCurse
+  conflict: '时运; '
+  target: 斧, 铲, 锄, 镐
+  description: 使工具破坏方块时有概率不掉落
+  enable: true
+  grindstoneable: false
+  params: '触发几率: 45.0%/'
+'28':
+  type: 诅咒
+  rarity: 诅咒
+  name: 火焰诅咒
+  max: 3
+  id: InaccuracyCurse
+  conflict: ''
+  target: 弓
+  description: 使弓射出的箭将错误地燃烧对象
+  enable: true
+  grindstoneable: false
+  params: '触发几率: 45.0%/'
+'29':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 青柠'
+  max: 1
+  id: LimeArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生青柠粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'30':
+  type: 被动
+  rarity: 史诗
+  name: 能源
+  max: 4
+  id: Launch
+  conflict: '制动; '
+  target: 鞘翅
+  description: 在使用烟花火箭加速时获得的加速度提升
+  enable: true
+  grindstoneable: true
+  params: '加速度: 1.6格/秒²/'
+'31':
+  type: 原版
+  rarity: 罕见
+  name: 水下呼吸
+  max: 3
+  id: respiration
+  conflict: ''
+  target: 头盔
+  description: 延长水下呼吸时间
+  enable: true
+  grindstoneable: true
+  params: ''
+'32':
+  type: 主动
+  rarity: 精良
+  name: 突袭
+  max: 6
+  id: Charge
+  conflict: ''
+  target: 剑
+  description: '§e右击§7将自己弹射至所指方向（冷却时间: §a40秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '粒子效果: (SWEEP_ATTACK)/粒子数量: 2.0/释放音效: (ENTITY_FIREWORK_ROCKET_LAUNCH)/冷却时间:
+    40.0秒/规模/力度: 4.8/'
+'33':
+  type: 诅咒
+  rarity: 诅咒
+  name: 烙印诅咒
+  max: 1
+  id: PermanenceCurse
+  conflict: ''
+  target: 所有物品
+  description: 使物品在铁砧中无法被修改
+  enable: true
+  grindstoneable: false
+  params: ''
+'34':
+  type: 原版
+  rarity: 普通
+  name: 穿刺
+  max: 5
+  id: impaling
+  conflict: ''
+  target: 三叉戟
+  description: 对水生生物造成额外伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'35':
+  type: 原版
+  rarity: 普通
+  name: 亡灵杀手
+  max: 5
+  id: smite
+  conflict: '锋利; 节肢杀手; '
+  target: 斧, 剑
+  description: 对亡灵生物造成额外伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'36':
+  type: 被动
+  rarity: 史诗
+  name: 错位
+  max: 3
+  id: Confusion
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率打乱对手的物品栏
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 9.0%/是否跟随攻击冷却: (true)/'
+'37':
+  type: 原版
+  rarity: 精良
+  name: 海之眷顾
+  max: 3
+  id: luck_of_the_sea
+  conflict: ''
+  target: 钓鱼竿
+  description: 增加钓鱼时获得宝藏的概率
+  enable: true
+  grindstoneable: true
+  params: ''
+'38':
+  type: 原版
+  rarity: 史诗
+  name: 荆棘
+  max: 3
+  id: thorns
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 给予攻击者伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'39':
+  type: 被动
+  rarity: 精良
+  name: 首击
+  max: 6
+  id: FirstStrike
+  conflict: ''
+  target: 剑
+  description: 对满血生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'40':
+  type: 被动
+  rarity: 精良
+  name: 沉默
+  max: 3
+  id: Disable
+  conflict: ''
+  target: 斧
+  description: 在攻击时有概率使对手获得挖掘疲劳效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/触发几率: 9.0%/是否跟随攻击冷却: (true)/效果等级: 3.0级/'
+'41':
+  type: 被动
+  rarity: 史诗
+  name: 洗炼
+  max: 3
+  id: Transfuse
+  conflict: '精准采集; 筛选; '
+  target: 镐
+  description: 在挖掘石头时有概率掉落随机矿物
+  enable: true
+  grindstoneable: true
+  params: '掉落物: (diamond_ore,gold_ore,lapis_ore,redstone_ore,iron_ore)/触发几率: 1.5%/作用对象:
+    (stone,deepslate)/'
+'42':
+  type: 原版
+  rarity: 精良
+  name: 火焰附加
+  max: 2
+  id: fire_aspect
+  conflict: ''
+  target: 剑
+  description: 使目标着火
+  enable: true
+  grindstoneable: true
+  params: ''
+'43':
+  type: 被动
+  rarity: 精良
+  name: 侵损
+  max: 3
+  id: Corrosive
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢有概率损坏对手的装备
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 15.0%/耐久降低: 3.0点/'
+'44':
+  type: 被动
+  rarity: 精良
+  name: 尽头
+  max: 5
+  id: EndInfusion
+  conflict: ''
+  target: 剑, 弩, 弓
+  description: 在末地造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.4/'
+'45':
+  type: 被动
+  rarity: 普通
+  name: 富氧
+  max: 4
+  id: Oxygenate
+  conflict: ''
+  target: 斧, 铲, 锄, 镐
+  description: 在水中破坏方块时可以获得额外氧气
+  enable: true
+  grindstoneable: true
+  params: '氧气值: §ga4.0点/'
+'46':
+  type: 被动
+  rarity: 史诗
+  name: 穿心
+  max: 1
+  id: Collateral
+  conflict: '穿颅; '
+  target: 弓
+  description: 射出的箭矢伤害降低但能破盾并穿透生物
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.5/'
+'47':
+  type: 被动
+  rarity: 精良
+  name: 绝热
+  max: 4
+  id: Extinguishing
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到火焰伤害时有概率直接将身上的火焰扑灭
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'48':
+  type: 被动
+  rarity: 罕见
+  name: 无缝
+  max: 5
+  id: Arcanic
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 有概率免疫药水伤害
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 40.0%/'
+'49':
+  type: 被动
+  rarity: 普通
+  name: 明辨
+  max: 1
+  id: Defender
+  conflict: ''
+  target: 斧, 剑, 弩, 弓
+  description: 防止伤害自己的宠物
+  enable: true
+  grindstoneable: true
+  params: ''
+'50':
+  type: 诅咒
+  rarity: 诅咒
+  name: 软弱诅咒
+  max: 3
+  id: HarmlessnessCurse
+  conflict: ''
+  target: 斧, 剑
+  description: 使剑或斧的攻击有概率无效
+  enable: true
+  grindstoneable: false
+  params: '触发几率: 45.0%/'
+'51':
+  type: 被动
+  rarity: 稀世
+  name: 飘逸
+  max: 3
+  id: Spring
+  conflict: ''
+  target: 靴子
+  description: 跳跃距离和高度提升
+  enable: true
+  grindstoneable: true
+  params: '垂直加速: 0.5格/秒/水平加速: 0.5格/秒/'
+'52':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 蜂蜜'
+  max: 1
+  id: HoneyArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生滴落的蜂蜜粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'53':
+  type: 被动
+  rarity: 史诗
+  name: 威慑
+  max: 2
+  id: Annihilate
+  conflict: '迫近; 击退; 击飞; '
+  target: 斧, 剑
+  description: 攻击时产生强力击退效果
+  enable: true
+  grindstoneable: true
+  params: '加速度: 5.0格/秒²/'
+'54':
+  type: 被动
+  rarity: 精良
+  name: 共振
+  max: 4
+  id: Shockwave
+  conflict: ''
+  target: 弓
+  description: 射出的箭矢飞行时伤害轨迹附近的生物
+  enable: true
+  grindstoneable: true
+  params: '溅射伤害: 4.0点/范围: 2.0格/'
+'55':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 红石'
+  max: 1
+  id: RedstoneArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生红石粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'56':
+  type: 原版
+  rarity: 传奇
+  name: 经验修补
+  max: 1
+  id: mending
+  conflict: '无限; '
+  target: 钓鱼竿, 铲, 靴子, 弩, 护腿, 头盔, 斧, 盾牌, 萝卜钓竿, 剪刀, 鞘翅, 打火石, 锄, 剑, 镐, 三叉戟, 胸甲, 弓
+  description: 损耗获得的经验以修补工具的耐久度
+  enable: true
+  grindstoneable: true
+  params: ''
+'57':
+  type: 被动
+  rarity: 史诗
+  name: 克剑
+  max: 6
+  id: Diverse
+  conflict: ''
+  target: 斧
+  description: 对持剑生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'58':
+  type: 被动
+  rarity: 精良
+  name: 过载
+  max: 3
+  id: Impact
+  conflict: ''
+  target: 三叉戟
+  description: 在攻击时有概率造成大量伤害
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.99/触发几率: 9.0%/'
+'59':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 烟花'
+  max: 1
+  id: SparkleArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生烟火粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'60':
+  type: 诅咒
+  rarity: 诅咒
+  name: 饥饿诅咒
+  max: 1
+  id: HungerCurse
+  conflict: '节食; '
+  target: 头盔
+  description: 使佩戴该头盔时饥饿速度加快
+  enable: true
+  grindstoneable: false
+  params: '生效周期: 200.0刻/'
+'61':
+  type: 原版
+  rarity: 精良
+  name: 冲击
+  max: 2
+  id: punch
+  conflict: ''
+  target: 弓
+  description: 增加弓箭的击退距离
+  enable: true
+  grindstoneable: true
+  params: ''
+'62':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 图腾'
+  max: 1
+  id: TotemArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生不死图腾粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'63':
+  type: 被动
+  rarity: 精良
+  name: 鱼叉
+  max: 3
+  id: Spearfishing
+  conflict: ''
+  target: 三叉戟
+  description: 击中水中的方块时有概率掉落鲜鱼
+  enable: true
+  grindstoneable: true
+  params: '掉落物: (cod,salmon,pufferfish,tropical_fish)/触发几率: 9.0%/'
+'64':
+  type: 被动
+  rarity: 精良
+  name: 浴火
+  max: 5
+  id: Hellish
+  conflict: '仲裁; 尽头; '
+  target: 剑, 弩, 三叉戟, 弓
+  description: 在地狱的造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.4/'
+'65':
+  type: 被动
+  rarity: 精良
+  name: 恶意
+  max: 3
+  id: Venom
+  conflict: ''
+  target: 剑, 弩, 弓
+  description: 在攻击时有概率使对手获得凋零效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 180.0刻/触发几率: 9.0%/效果等级: 1.0级/'
+'66':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 怒火'
+  max: 1
+  id: AngerArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 村民愤怒时产生的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'67':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 史莱姆'
+  max: 1
+  id: SlimeArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 弩, 镐, 三叉戟, 弓
+  description: 产生史莱姆粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'68':
+  type: 原版
+  rarity: 罕见
+  name: 精准采集
+  max: 1
+  id: silk_touch
+  conflict: '时运; '
+  target: 斧, 铲, 锄, 镐
+  description: 被开采的方块掉落其本身
+  enable: true
+  grindstoneable: true
+  params: ''
+'69':
+  type: 被动
+  rarity: 罕见
+  name: 轻盈
+  max: 4
+  id: Freerunner
+  conflict: ''
+  target: 靴子
+  description: 受到摔落伤害时有概率免疫
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'70':
+  type: 被动
+  rarity: 精良
+  name: 尖锐
+  max: 3
+  id: Stab
+  conflict: ''
+  target: 三叉戟
+  description: 三叉戟的近战伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'71':
+  type: 原版
+  rarity: 诅咒
+  name: 消失诅咒
+  max: 1
+  id: vanishing_curse
+  conflict: ''
+  target: 钓鱼竿, 铲, 靴子, 弩, 护腿, 头盔, 斧, 盾牌, 萝卜钓竿, 剪刀, 鞘翅, 打火石, 锄, 剑, 镐, 三叉戟, 胸甲, 弓
+  description: 被诅咒物品会在玩家死亡时消失
+  enable: true
+  grindstoneable: true
+  params: ''
+'72':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 龙息'
+  max: 1
+  id: DragonArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生龙息粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'73':
+  type: 被动
+  rarity: 罕见
+  name: 战狂
+  max: 4
+  id: Horde
+  conflict: ''
+  target: 剑
+  description: 周围生物越多，造成的伤害越高
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×(0.015×4×数量)/范围: 10.0格/'
+'74':
+  type: 被动
+  rarity: 稀世
+  name: 索敌
+  max: 5
+  id: Aiming
+  conflict: ''
+  target: 弓
+  description: 射出的箭矢将自动追踪目标
+  enable: true
+  grindstoneable: true
+  params: '是否跟随攻击冷却: (false)/范围: 9.0格/生效周期: 5.0刻/'
+'75':
+  type: 被动
+  rarity: 罕见
+  name: 制动
+  max: 3
+  id: Kinetic
+  conflict: '能源; '
+  target: 鞘翅
+  description: 受到碰撞的伤害降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.25/'
+'76':
+  type: 被动
+  rarity: 传奇
+  name: 催生
+  max: 1
+  id: Replenish
+  conflict: ''
+  target: 锄
+  description: 在采集农作物时自动补种
+  enable: true
+  grindstoneable: true
+  params: '是否在蹲下时禁用: (true)/'
+'77':
+  type: 被动
+  rarity: 史诗
+  name: 反弹
+  max: 4
+  id: Rebounding
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 在受到伤害时对攻击者施加击退效果
+  enable: true
+  grindstoneable: true
+  params: '加速度: 2.0格/秒²/'
+'78':
+  type: 原版
+  rarity: 普通
+  name: 锋利
+  max: 5
+  id: sharpness
+  conflict: '亡灵杀手; 节肢杀手; '
+  target: 斧, 剑
+  description: 增加近战攻击伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'79':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 尘土'
+  max: 1
+  id: DustArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生尘土粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'80':
+  type: 被动
+  rarity: 精良
+  name: 夜伏
+  max: 4
+  id: Nocturnal
+  conflict: '昼行; '
+  target: 剑
+  description: 在夜晚时造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.2/'
+'81':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 雨滴'
+  max: 1
+  id: RainArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 弩, 镐, 三叉戟, 弓
+  description: 产生雨滴飞溅的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'82':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 电火'
+  max: 1
+  id: Sparkartifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生电火粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'83':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 熔岩'
+  max: 1
+  id: MagmaArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生熔岩飞溅粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'84':
+  type: 被动
+  rarity: 精良
+  name: 火力
+  max: 2
+  id: Buckshot
+  conflict: '五言; 迭累; 三言; '
+  target: 弓
+  description: 同时射出多支分散箭矢
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 4.0/'
+'85':
+  type: 被动
+  rarity: 史诗
+  name: 处决
+  max: 3
+  id: Beheading
+  conflict: '抢夺; '
+  target: 斧, 剑
+  description: 击杀生物时有概率掉落头颅
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 9.0%/'
+'86':
+  type: 被动
+  rarity: 普通
+  name: 屠宰
+  max: 4
+  id: Slaughter
+  conflict: '亡灵杀手; 魄力; 力量; 圣水; 锋利; 利刃; 终末; 拆弹; 剿蛛; 节肢杀手; 锯齿; 穿刺; '
+  target: 斧, 剑, 三叉戟, 弓
+  description: 对和平生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'87':
+  type: 被动
+  rarity: 精良
+  name: 仲裁
+  max: 5
+  id: VoidAffinity
+  conflict: ''
+  target: 三叉戟
+  description: 在末地造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.4/'
+'88':
+  type: 被动
+  rarity: 史诗
+  name: 守恒
+  max: 4
+  id: Sycophant
+  conflict: '偏光; '
+  target: 盾牌
+  description: 转换一部分抵挡的伤害为治疗血量并使盾牌进入冷却期
+  enable: true
+  grindstoneable: true
+  params: '冷却时间: 4.0秒/比例: 20.0%/'
+'89':
+  type: 被动
+  rarity: 普通
+  name: 无氧
+  max: 2
+  id: BlockBreather
+  conflict: ''
+  target: 头盔
+  description: 有概率免疫窒息伤害
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'90':
+  type: 被动
+  rarity: 罕见
+  name: 冻结
+  max: 3
+  id: IceShot
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢有概率使对手获得缓慢效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 180.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'91':
+  type: 原版
+  rarity: 精良
+  name: 忠诚
+  max: 3
+  id: loyalty
+  conflict: '激流; '
+  target: 三叉戟
+  description: 使掷出后的三叉戟返回，魔咒等级越高，三叉戟返回所需时间越短
+  enable: true
+  grindstoneable: true
+  params: ''
+'92':
+  type: 被动
+  rarity: 精良
+  name: 光辉
+  max: 4
+  id: Radiance
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢落地附近的生物发光
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/范围: 5.0格/'
+'93':
+  type: 原版
+  rarity: 罕见
+  name: 耐久
+  max: 3
+  id: unbreaking
+  conflict: ''
+  target: 所有物品
+  description: 减少物品掉耐久的概率
+  enable: true
+  grindstoneable: true
+  params: ''
+'94':
+  type: 原版
+  rarity: 罕见
+  name: 击退
+  max: 2
+  id: knockback
+  conflict: ''
+  target: 剑
+  description: 增加击退距离
+  enable: true
+  grindstoneable: true
+  params: ''
+'95':
+  type: 原版
+  rarity: 罕见
+  name: 弹射物保护
+  max: 4
+  id: projectile_protection
+  conflict: '摔落保护; 保护; 火焰保护; '
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 减少弹射物伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'96':
+  type: 被动
+  rarity: 精良
+  name: 抛射
+  max: 3
+  id: Atmospheric
+  conflict: ''
+  target: 三叉戟
+  description: 在空中时投掷的三叉戟伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'97':
+  type: 被动
+  rarity: 传奇
+  name: 捍卫
+  max: 4
+  id: Preservation
+  conflict: '弹射物保护; 保护; 爆炸保护; 火焰保护; '
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到的伤害大幅降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.84/'
+'98':
+  type: 被动
+  rarity: 史诗
+  name: 脉络
+  max: 4
+  id: Vein
+  conflict: '立方; 穿凿; '
+  target: 镐
+  description: 在挖掘矿物时连锁破坏其周围的同种矿物
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 8.0/是否在蹲下时禁用: (true)/作用对象: (deepslate_coal_ore,deepslate_iron_ore,deepslate_gold_ore,deepslate_diamond_ore,deepslate_emerald_ore,deepslate_redstone_ore,deepslate_lapis_ore,copper_ore,deepslate_copper_ore,coal_ore,iron_ore,gold_ore,ancient_debris,lapis_ore,diamond_ore,emerald_ore,redstone_ore,nether_quartz_ore,gilded_blackstone,nether_gold_ore,glowstone)/'
+'99':
+  type: 被动
+  rarity: 史诗
+  name: 拉扯
+  max: 4
+  id: Reel
+  conflict: ''
+  target: 钓鱼竿
+  description: 拉扯生物的力度提升
+  enable: true
+  grindstoneable: true
+  params: '加速度: 2.0格/秒²/'
+'100':
+  type: 被动
+  rarity: 精良
+  name: 闪避
+  max: 3
+  id: Evasion
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到伤害时有概率免疫
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 6.0%/'
+'101':
+  type: 原版
+  rarity: 罕见
+  name: 多重射击
+  max: 1
+  id: multishot
+  conflict: '穿透; '
+  target: 弩
+  description: 消耗一支箭以射出三只箭矢
+  enable: true
+  grindstoneable: true
+  params: ''
+'102':
+  type: 被动
+  rarity: 精良
+  name: 聚焦
+  max: 3
+  id: Flinch
+  conflict: ''
+  target: 盾牌
+  description: 抵挡伤害时有概率使攻击者获得失明效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'103':
+  type: 被动
+  rarity: 史诗
+  name: 乘势
+  max: 3
+  id: Marking
+  conflict: ''
+  target: 弩, 弓
+  description: 短时间内连续对你的对手的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/伤害倍率: ×1.3/'
+'104':
+  type: 被动
+  rarity: 罕见
+  name: 骑士
+  max: 3
+  id: Paladin
+  conflict: ''
+  target: 剑
+  description: 在骑乘时造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.6/'
+'105':
+  type: 被动
+  rarity: 精良
+  name: 坚定
+  max: 6
+  id: Goliath
+  conflict: ''
+  target: 剑
+  description: 对比自己血量高的生物造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'106':
+  type: 被动
+  rarity: 精良
+  name: 三言
+  max: 1
+  id: Tripleshot
+  conflict: '五言; 迭累; 火力; '
+  target: 弓
+  description: 一次射出的箭矢数量增加为三支并分散为扇形
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/偏移角度: 10.0°/'
+'107':
+  type: 被动
+  rarity: 精良
+  name: 节食
+  max: 4
+  id: Sating
+  conflict: ''
+  target: 头盔
+  description: 饱食损失速度降低
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/'
+'108':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 鬼火'
+  max: 1
+  id: SoulFireArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生灵魂火焰粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'109':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 魔法'
+  max: 1
+  id: MagicArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生魔法粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'110':
+  type: 被动
+  rarity: 精良
+  name: 裂空
+  max: 3
+  id: Aerial
+  conflict: ''
+  target: 弩, 弓
+  description: 在空中射出的箭矢伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'111':
+  type: 被动
+  rarity: 罕见
+  name: 乘云
+  max: 4
+  id: Graceful
+  conflict: ''
+  target: 靴子
+  description: 从高处下落着陆前有概率获得缓降效果
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'112':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 巫术'
+  max: 1
+  id: WitchArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生巫术粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'113':
+  type: 被动
+  rarity: 精良
+  name: 磁铁
+  max: 4
+  id: Magnetic
+  conflict: ''
+  target: 靴子
+  description: 自动吸引周围的物品和经验到背包
+  enable: true
+  grindstoneable: true
+  params: '范围: 10.0格/是否在蹲下时禁用: (true)/生效周期: 5.0刻/'
+'114':
+  type: 被动
+  rarity: 精良
+  name: 收割
+  max: 3
+  id: Necrotic
+  conflict: '抢夺; '
+  target: 剑
+  description: 击杀凋零骷髅时掉落头颅的概率提升
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 9.0%/'
+'115':
+  type: 被动
+  rarity: 精良
+  name: 不意
+  max: 6
+  id: Backstab
+  conflict: ''
+  target: 斧, 剑
+  description: 攻击对手后方时伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'116':
+  type: 原版
+  rarity: 史诗
+  name: 时运
+  max: 3
+  id: fortune
+  conflict: '精准采集; '
+  target: 斧, 铲, 锄, 镐
+  description: 增加方块掉落数量或其掉落概率
+  enable: true
+  grindstoneable: true
+  params: ''
+'117':
+  type: 主动
+  rarity: 史诗
+  name: 爆破
+  max: 2
+  id: Dynamite
+  conflict: ''
+  target: 镐
+  description: '§e右击§7可大范围破坏方块（冷却时间: §a360秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '粒子效果: (EXPLOSION_HUGE)/粒子数量: 1.0/释放音效: (ENTITY_DRAGON_FIREBALL_EXPLODE)/冷却时间:
+    360.0秒/范围: 3.0格/是否检查方块硬度: (bedrock,obisidian)/是否检查方块权限: (true)/'
+'118':
+  type: 被动
+  rarity: 稀世
+  name: 活力
+  max: 3
+  id: Energizing
+  conflict: ''
+  target: 斧, 铲, 锄, 镐
+  description: 挖掘后获得急迫效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 24.0刻/效果等级: 3.0级/'
+'119':
+  type: 被动
+  rarity: 普通
+  name: 卫戍
+  max: 4
+  id: Dweller
+  conflict: ''
+  target: 斧, 剑
+  description: 对灾厄村民的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'120':
+  type: 原版
+  rarity: 精良
+  name: 迅捷潜行
+  max: 3
+  id: swift_sneak
+  conflict: ''
+  target: 护腿
+  description: 增加玩家下蹲时的移动速度
+  enable: true
+  grindstoneable: true
+  params: ''
+'121':
+  type: 被动
+  rarity: 史诗
+  name: 迫近
+  max: 4
+  id: Grapple
+  conflict: '击退; 威慑; 击飞; '
+  target: 斧, 剑
+  description: 在攻击时将对手拉近
+  enable: true
+  grindstoneable: true
+  params: '加速度: 2.0格/秒²/'
+'122':
+  type: 原版
+  rarity: 普通
+  name: 爆炸保护
+  max: 4
+  id: blast_protection
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 减少爆炸伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'123':
+  type: 被动
+  rarity: 精良
+  name: 天雷
+  max: 3
+  id: Electroshock
+  conflict: ''
+  target: 盾牌
+  description: 格挡攻击时有概率雷击你的对手
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 6.0点/触发几率: 9.0%/'
+'124':
+  type: 被动
+  rarity: 精良
+  name: 毒箭
+  max: 3
+  id: Sickening
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢有概率使对手获得中毒效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 300.0刻/触发几率: 9.0%/效果等级: 1.0级/'
+'125':
+  type: 被动
+  rarity: 精良
+  name: 毒刃
+  max: 3
+  id: Toxic
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率使对手获得中毒效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 300.0刻/触发几率: 9.0%/是否跟随攻击冷却: (true)/效果等级: 1.0级/'
+'126':
+  type: 被动
+  rarity: 精良
+  name: 穿凿
+  max: 3
+  id: Drill
+  conflict: '立方; 脉络; 电锯; '
+  target: 镐
+  description: 挖掘时连同后方的方块
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/范围: 3.0格/是否在蹲下时禁用: (true)/是否开启声音: (false)/是否检查方块硬度: (bedrock,obisidian)/是否检查方块权限:
+    (true)/'
+'127':
+  type: 被动
+  rarity: 史诗
+  name: 随风
+  max: 8
+  id: Rapid
+  conflict: ''
+  target: 弓
+  description: 射出的箭矢飞行速度提升
+  enable: true
+  grindstoneable: true
+  params: '加速度: 2.0格/秒²/'
+'128':
+  type: 被动
+  rarity: 稀世
+  name: 自生
+  max: 3
+  id: Repairing
+  conflict: '腐烂诅咒; '
+  target: 所有物品
+  description: 处于非手持状态时耐久度持续增加
+  enable: true
+  grindstoneable: true
+  params: '耐久升高: 3.0点/生效周期: 100.0刻/'
+'129':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 水滴'
+  max: 1
+  id: WaterArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生滴落的水滴粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'130':
+  type: 被动
+  rarity: 罕见
+  name: 湍流
+  max: 3
+  id: WaterAffinity
+  conflict: '炽热; '
+  target: 剑, 三叉戟
+  description: 在水中造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'131':
+  type: 被动
+  rarity: 精良
+  name: 扎刺
+  max: 2
+  id: Spiked
+  conflict: '尖钩; '
+  target: 钓鱼竿
+  description: 对被钩上的生物造成伤害
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 2.0点/'
+'132':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 火焰'
+  max: 1
+  id: FireArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生火焰粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'133':
+  type: 被动
+  rarity: 精良
+  name: 信念
+  max: 3
+  id: Stalwart
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到伤害时有概率获得抗性提升效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 30.0刻/触发几率: 9.0%/效果等级: 2.0级/'
+'134':
+  type: 原版
+  rarity: 罕见
+  name: 穿透
+  max: 4
+  id: piercing
+  conflict: '多重射击; '
+  target: 弩
+  description: 使箭矢穿过多个实体
+  enable: true
+  grindstoneable: true
+  params: ''
+'135':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 猩红'
+  max: 1
+  id: CrimsonArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生猩红森林的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'136':
+  type: 被动
+  rarity: 传奇
+  name: 尖钩
+  max: 2
+  id: Harpoon
+  conflict: '扎刺; '
+  target: 钓鱼竿
+  description: 对被钩上的生物造成大量伤害
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 8.0点/'
+'137':
+  type: 被动
+  rarity: 精良
+  name: 炽戟
+  max: 1
+  id: Inferno
+  conflict: ''
+  target: 三叉戟
+  description: 使投掷的三叉戟伴随火焰
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 100.0刻/'
+'138':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 苔藓'
+  max: 1
+  id: Sporeartifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生苔藓粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'139':
+  type: 主动
+  rarity: 稀世
+  name: 慧眼
+  max: 3
+  id: Xray
+  conflict: '立方; '
+  target: 镐
+  description: '§e右击§7可高亮周围的矿物（冷却时间: §a360秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 800.0刻/粒子效果: (TOTEM)/粒子数量: 2.0/释放音效: (ENTITY_ENDERMAN_TELEPORT)/冷却时间:
+    360.0秒/范围: 10.0格/是否附带发光颜色: (true)/'
+'140':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 光芒'
+  max: 1
+  id: Lightartifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生光芒粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'141':
+  type: 原版
+  rarity: 罕见
+  name: 横扫之刃
+  max: 3
+  id: sweeping
+  conflict: ''
+  target: 剑
+  description: 增加横扫攻击伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'142':
+  type: 被动
+  rarity: 罕见
+  name: 破魔
+  max: 4
+  id: BossHunter
+  conflict: '魄力; 圣水; 力量; 剿蛛; 分解; 锯齿; 屠宰; 穿刺; '
+  target: 弩, 弓
+  description: 对BOSS的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×2.0/'
+'143':
+  type: 被动
+  rarity: 传奇
+  name: 惊喜
+  max: 2
+  id: LuckyCatch
+  conflict: ''
+  target: 钓鱼竿
+  description: 在收钩时有概率一钩双鱼
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/'
+'144':
+  type: 原版
+  rarity: 罕见
+  name: 水下速掘
+  max: 1
+  id: aqua_affinity
+  conflict: ''
+  target: 头盔
+  description: 在水下挖掘速度更快
+  enable: true
+  grindstoneable: true
+  params: ''
+'145':
+  type: 原版
+  rarity: 诅咒
+  name: 绑定诅咒
+  max: 1
+  id: binding_curse
+  conflict: ''
+  target: 头盔, 鞘翅, 头饰
+  description: 被诅咒物品穿在身上后无法卸下
+  enable: true
+  grindstoneable: true
+  params: ''
+'146':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 符文'
+  max: 1
+  id: EnchantmentArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生符文粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'147':
+  type: 主动
+  rarity: 精良
+  name: 腾空
+  max: 3
+  id: Ascend
+  conflict: ''
+  target: 剑
+  description: '§e右击§7将自己向上弹射（冷却时间: §a90秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '粒子效果: (SLIME)/粒子数量: 5.0/释放音效: (ENTITY_FIREWORK_ROCKET_LARGE_BLAST)/冷却时间:
+    90.0秒/规模/力度: 25.0/'
+'148':
+  type: 被动
+  rarity: 传奇
+  name: 时速
+  max: 3
+  id: Streamlining
+  conflict: ''
+  target: 靴子
+  description: 移动速度提升
+  enable: true
+  grindstoneable: true
+  params: '速度加成: 0.06格/秒/'
+'149':
+  type: 被动
+  rarity: 史诗
+  name: 炽热
+  max: 6
+  id: FireAffinity
+  conflict: '湍流; '
+  target: 剑, 弩, 弓
+  description: 对燃烧的生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'150':
+  type: 被动
+  rarity: 精良
+  name: 智识
+  max: 2
+  id: Wisdom
+  conflict: '水花; '
+  target: 斧, 铲, 剑, 锄, 弩, 镐, 三叉戟, 弓
+  description: 掉落的经验量提升
+  enable: true
+  grindstoneable: true
+  params: '经验倍率: ×1.5/'
+'151':
+  type: 被动
+  rarity: 精良
+  name: 力场
+  max: 3
+  id: Forcefield
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 对附近的怪物造成持续伤害
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 6.0点/范围: 9.0格/生效周期: 20.0刻/'
+'152':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 末影'
+  max: 1
+  id: EndArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生末影粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'153':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 横扫'
+  max: 1
+  id: SweepArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生横扫攻击的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'154':
+  type: 被动
+  rarity: 普通
+  name: 分解
+  max: 4
+  id: Cubism
+  conflict: '魄力; 圣水; 力量; 破魔; 剿蛛; 锯齿; 屠宰; 穿刺; '
+  target: 斧, 剑, 弩, 弓
+  description: 对史莱姆和岩浆怪的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'155':
+  type: 被动
+  rarity: 史诗
+  name: 自愈
+  max: 2
+  id: Rejuvenation
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 自然回血速度与回血量提升
+  enable: true
+  grindstoneable: true
+  params: ''
+'156':
+  type: 原版
+  rarity: 普通
+  name: 摔落保护
+  max: 4
+  id: feather_falling
+  conflict: '弹射物保护; 保护; 火焰保护; '
+  target: 靴子
+  description: 减少跌落伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'157':
+  type: 被动
+  rarity: 普通
+  name: 熄灭
+  max: 4
+  id: Dousing
+  conflict: '殃及; '
+  target: 弩, 弓
+  description: 射出的箭矢有概率熄灭落点区域火焰
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'158':
+  type: 被动
+  rarity: 传奇
+  name: 利刃
+  max: 4
+  id: Razor
+  conflict: '亡灵杀手; 锋利; 终末; 拆弹; 偏激; 节肢杀手; '
+  target: 剑
+  description: 在攻击时伤害大幅提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.4/是否对玩家生效: (false)/是否存在冷却减幅: (true)/'
+'159':
+  type: 被动
+  rarity: 精良
+  name: 失重
+  max: 3
+  id: Levitate
+  conflict: ''
+  target: 弩, 弓
+  description: 在攻击时有概率使对手获得漂浮效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'160':
+  type: 诅咒
+  rarity: 诅咒
+  name: 无力诅咒
+  max: 3
+  id: BreaklessnessCurse
+  conflict: ''
+  target: 斧, 铲, 锄, 镐
+  description: 使工具破坏方块时有概率失败
+  enable: true
+  grindstoneable: false
+  params: '触发几率: 45.0%/'
+'161':
+  type: 被动
+  rarity: 传奇
+  name: 滋润
+  max: 3
+  id: Extract
+  conflict: ''
+  target: 斧, 剑, 弩, 三叉戟, 弓
+  description: 造成伤害时转化一部分为己方恢复血量
+  enable: true
+  grindstoneable: true
+  params: '回复血量: ((0.1×3)×伤害)点/'
+'162':
+  type: 被动
+  rarity: 精良
+  name: 迭累
+  max: 2
+  id: Succession
+  conflict: '五言; 火力; 三言; '
+  target: 弓
+  description: 一瞬间同时射出多支箭
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 2.0/'
+'163':
+  type: 被动
+  rarity: 罕见
+  name: 致幻
+  max: 3
+  id: IllusionAspect
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率使对手获得反胃+失明效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 360.0刻/触发几率: 9.0%/是否跟随攻击冷却: (true)/效果等级: 3.0级/'
+'164':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 雪花'
+  max: 1
+  id: SnowArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生雪花粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'165':
+  type: 被动
+  rarity: 普通
+  name: 培植
+  max: 1
+  id: GreenThumb
+  conflict: ''
+  target: 锄
+  description: 左击泥土可将其转换为草方块
+  enable: true
+  grindstoneable: true
+  params: '是否检查方块权限: (true)/'
+'166':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 灰烬'
+  max: 1
+  id: AshArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生玄武岩三角洲的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'167':
+  type: 被动
+  rarity: 史诗
+  name: 节能
+  max: 4
+  id: Economical
+  conflict: ''
+  target: 鞘翅
+  description: 使用烟花火箭加速时有概率不消耗
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/'
+'168':
+  type: 被动
+  rarity: 史诗
+  name: 电锯
+  max: 4
+  id: Lumberjack
+  conflict: '穿凿; '
+  target: 斧
+  description: 一次性砍伐大量木头
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 12.0/是否在蹲下时禁用: (true)/作用对象: (oak_wood,dark_oak_wood,acacia_wood,jungle_wood,birch_wood,crimson_stem,spruce_wood,warped_stem,oak_log,dark_oak_log,acacia_log,jungle_log,birch_log,spruce_log)/'
+'169':
+  type: 原版
+  rarity: 普通
+  name: 力量
+  max: 5
+  id: power
+  conflict: ''
+  target: 弓
+  description: 为弓射出的箭增加伤害
+  enable: true
+  grindstoneable: true
+  params: ''
+'170':
+  type: 被动
+  rarity: 精良
+  name: 昼行
+  max: 4
+  id: Diurnal
+  conflict: '夜伏; '
+  target: 剑
+  description: 在白天时造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.2/'
+'171':
+  type: 被动
+  rarity: 普通
+  name: 殃及
+  max: 4
+  id: Ignite
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢有概率点燃落点区域
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/'
+'172':
+  type: 原版
+  rarity: 罕见
+  name: 灵魂疾行
+  max: 3
+  id: soul_speed
+  conflict: '冰霜行者; 深海探索者; '
+  target: 靴子
+  description: 增加玩家在灵魂沙和灵魂土上的移动速度
+  enable: true
+  grindstoneable: true
+  params: ''
+'173':
+  type: 被动
+  rarity: 史诗
+  name: 熔炼
+  max: 1
+  id: InfernalTouch
+  conflict: '精准采集; 筛选; '
+  target: 镐
+  description: 自动烧炼挖掘掉落的矿物
+  enable: true
+  grindstoneable: true
+  params: '是否掉落经验: (true)/'
+'174':
+  type: 原版
+  rarity: 罕见
+  name: 激流
+  max: 3
+  id: riptide
+  conflict: '忠诚; 引雷; '
+  target: 三叉戟
+  description: 将玩家向掷出三叉戟的方向发射，仅在水中或雨中生效
+  enable: true
+  grindstoneable: true
+  params: ''
+'175':
+  type: 被动
+  rarity: 史诗
+  name: 瞬息
+  max: 2
+  id: Dexterous
+  conflict: ''
+  target: 斧, 剑
+  description: 攻击速度提升
+  enable: true
+  grindstoneable: true
+  params: '攻击冷却减幅: 20.0%/'
+'176':
+  type: 诅咒
+  rarity: 诅咒
+  name: 脆弱诅咒
+  max: 3
+  id: FragilityCurse
+  conflict: '耐久; '
+  target: 所有物品
+  description: 使物品被使用时额外扣除耐久度
+  enable: true
+  grindstoneable: false
+  params: '额外磨损: 6.0点/'
+'177':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 伤害'
+  max: 1
+  id: DamageArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生伤害粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'178':
+  type: 原版
+  rarity: 精良
+  name: 冰霜行者
+  max: 2
+  id: frost_walker
+  conflict: '灵魂疾行; 深海探索者; '
+  target: 靴子
+  description: 使在水上行走过的地方结冰
+  enable: true
+  grindstoneable: true
+  params: ''
+'179':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 翡翠'
+  max: 1
+  id: EmeraldArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生绿宝石粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'180':
+  type: 被动
+  rarity: 罕见
+  name: 煽动
+  max: 5
+  id: Rage
+  conflict: ''
+  target: 弓
+  description: 射出的箭矢造成伤害时有概率号召附近的怪物攻击对手
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/范围: 10.0格/'
+'181':
+  type: 被动
+  rarity: 传奇
+  name: 魄力
+  max: 3
+  id: Force
+  conflict: '力量; 屠宰; '
+  target: 弓
+  description: 射出的箭矢伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'182':
+  type: 被动
+  rarity: 精良
+  name: 寒气
+  max: 3
+  id: Frozen
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到伤害时有概率使攻击者获得减速效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'183':
+  type: 被动
+  rarity: 罕见
+  name: 指挥
+  max: 5
+  id: Infuriate
+  conflict: ''
+  target: 盾牌
+  description: 在受到攻击时有概率号召附近的怪物攻击对手
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/范围: 10.0格/'
+'184':
+  type: 被动
+  rarity: 普通
+  name: 异生
+  max: 4
+  id: WoodSwitcher
+  conflict: '精准采集; '
+  target: 斧
+  description: 砍伐木头时有概率掉落其他种类的木头
+  enable: true
+  grindstoneable: true
+  params: '掉落物: (oak_log,birch_log,spruce_log,jungle_log,acacia_log,dark_oak_log)/触发几率:
+    50.0%/作用对象: (oak_log,birch_log,spruce_log,jungle_log,acacia_log,dark_oak_log)/'
+'185':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 灵魂'
+  max: 1
+  id: SoulArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生灵魂粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'186':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 圣水'
+  max: 1
+  id: TearArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生哭泣的黑曜石粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'187':
+  type: 被动
+  rarity: 史诗
+  name: 击飞
+  max: 4
+  id: Tornado
+  conflict: '迫近; 击退; 威慑; '
+  target: 斧, 剑
+  description: 在攻击时将对手击向空中
+  enable: true
+  grindstoneable: true
+  params: '加速度: 1.0格/秒²/'
+'188':
+  type: 被动
+  rarity: 罕见
+  name: 弱敌
+  max: 3
+  id: Dullness
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率让对手获得虚弱效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/触发几率: 9.0%/是否跟随攻击冷却: (true)/效果等级: 3.0级/'
+'189':
+  type: 原版
+  rarity: 史诗
+  name: 无限
+  max: 1
+  id: infinity
+  conflict: '经验修补; '
+  target: 弓
+  description: 射箭时不会消耗普通箭矢
+  enable: true
+  grindstoneable: true
+  params: ''
+'190':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 云朵'
+  max: 1
+  id: CloudsArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生云朵粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'191':
+  type: 被动
+  rarity: 史诗
+  name: 五言
+  max: 1
+  id: Pentashot
+  conflict: '迭累; 火力; 三言; '
+  target: 弓
+  description: 一次射出的箭矢数量增加为五支并分散为扇形
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/偏移角度: 7.0°/'
+'192':
+  type: 被动
+  rarity: 精良
+  name: 碎星
+  max: 3
+  id: Cleave
+  conflict: '破军; '
+  target: 斧
+  description: 伤害对手时溅射伤害至周围生物
+  enable: true
+  grindstoneable: true
+  params: '是否跟随攻击冷却: (true)/范围: 3.0格/溅射伤害: 45.0%/'
+'193':
+  type: 被动
+  rarity: 精良
+  name: 成像
+  max: 4
+  id: Identify
+  conflict: ''
+  target: 盾牌
+  description: 受到伤害时有概率使攻击者获得发光效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 200.0刻/触发几率: 100.0%/'
+'194':
+  type: 被动
+  rarity: 罕见
+  name: 规劝
+  max: 5
+  id: Fury
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率号召附近的怪物攻击对手
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 50.0%/范围: 10.0格/'
+'195':
+  type: 被动
+  rarity: 精良
+  name: 振荡
+  max: 3
+  id: Grit
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 收到伤害时损耗对手武器的耐久
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 9.0%/耐久降低: 3.0点/'
+'196':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 墨水'
+  max: 1
+  id: InkArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生墨水粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'197':
+  type: 被动
+  rarity: 罕见
+  name: 刀鞘
+  max: 4
+  id: Slicing
+  conflict: ''
+  target: 鞘翅
+  description: 飞行时每秒对周围生物造成一定伤害
+  enable: true
+  grindstoneable: true
+  params: '溅射伤害: 4.0点/范围: 2.0格/'
+'198':
+  type: 被动
+  rarity: 精良
+  name: 会心
+  max: 3
+  id: Supercritical
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率造成的伤害大幅提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.99/触发几率: 9.0%/是否跟随攻击冷却: (true)/'
+'199':
+  type: 诅咒
+  rarity: 诅咒
+  name: 腐烂诅咒
+  max: 3
+  id: DecayCurse
+  conflict: '自生; '
+  target: 所有物品
+  description: 处于非手持状态时耐久度持续降低
+  enable: true
+  grindstoneable: false
+  params: '生效周期: 100.0刻/耐久降低: 3.0点/'
+'200':
+  type: 主动
+  rarity: 传奇
+  name: 急救
+  max: 1
+  id: Vitalize
+  conflict: ''
+  target: 斧, 铲, 剑, 镐
+  description: '§e右击§7将自身生命值恢复至满（冷却时间: §a180秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '粒子效果: (HEART)/粒子数量: 1.0/释放音效: (ENTITY_PLAYER_LEVELUP)/冷却时间: 180.0秒/'
+'201':
+  type: 被动
+  rarity: 普通
+  name: 抽薪
+  max: 4
+  id: WaterAspect
+  conflict: '火焰附加; '
+  target: 斧, 剑
+  description: 对火焰类生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'202':
+  type: 被动
+  rarity: 传奇
+  name: 耕作
+  max: 2
+  id: Farmhand
+  conflict: ''
+  target: 锄
+  description: 一次可对一大批区域进行耕地操作
+  enable: true
+  grindstoneable: true
+  params: '范围: 3.0格/是否在蹲下时禁用: (true)/是否检查方块权限: (true)/'
+'203':
+  type: 被动
+  rarity: 稀世
+  name: 立方
+  max: 1
+  id: BlastMining
+  conflict: '脉络; 穿凿; '
+  target: 镐
+  description: 每次挖掘立方范围的方块
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 100.0%/是否在蹲下时禁用: (true)/是否开启声音: (false)/是否检查方块硬度: (bedrock,obisidian)/是否检查方块权限:
+    (true)/'
+'204':
+  type: 被动
+  rarity: 精良
+  name: 牵引
+  max: 4
+  id: Hook
+  conflict: ''
+  target: 钓鱼竿
+  description: 使钩子的拉扯效果提升
+  enable: true
+  grindstoneable: true
+  params: '加速度: 0.5格/秒²/'
+'205':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 粉星'
+  max: 1
+  id: WaxArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生粉星粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'206':
+  type: 被动
+  rarity: 史诗
+  name: 白热
+  max: 3
+  id: Incandescence
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 受到攻击时有概率使攻击者着火
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 180.0刻/触发几率: 30.0%/'
+'207':
+  type: 被动
+  rarity: 精良
+  name: 狙击
+  max: 4
+  id: Optics
+  conflict: ''
+  target: 弩, 弓
+  description: 射出的箭矢经过距离越远伤害越高
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×(1+0.0025×4×距离)/'
+'208':
+  type: 被动
+  rarity: 精良
+  name: 磨蚀
+  max: 3
+  id: Abrasion
+  conflict: ''
+  target: 斧, 剑
+  description: 在攻击时有概率损坏对手盔甲
+  enable: true
+  grindstoneable: true
+  params: '触发几率: 9.0%/是否跟随攻击冷却: (true)/耐久降低: 3.0点/'
+'209':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 荧光'
+  max: 1
+  id: Glowartifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生荧光粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'210':
+  type: 被动
+  rarity: 罕见
+  name: 宣读
+  max: 3
+  id: Finality
+  conflict: ''
+  target: 剑, 三叉戟, 弓
+  description: 对低血量生物造成伤害时有概率直接将其击杀
+  enable: true
+  grindstoneable: true
+  params: '最低血量: (0.1×3×最大血量)点/触发几率: 9.0%/'
+'211':
+  type: 被动
+  rarity: 史诗
+  name: 连击
+  max: 3
+  id: Weakening
+  conflict: ''
+  target: 剑
+  description: 短时间内连续对你的对手的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/伤害倍率: ×1.3/'
+'212':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 铜星'
+  max: 1
+  id: Copperartifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生铜星粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'213':
+  type: 被动
+  rarity: 普通
+  name: 圣水
+  max: 4
+  id: Phantasm
+  conflict: '魄力; 力量; 剿蛛; 锯齿; 屠宰; 穿刺; '
+  target: 三叉戟, 弓
+  description: 对亡灵生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'214':
+  type: 被动
+  rarity: 精良
+  name: 透骨
+  max: 6
+  id: Cranial
+  conflict: ''
+  target: 三叉戟
+  description: 投掷的三叉戟爆头伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'215':
+  type: 被动
+  rarity: 普通
+  name: 破甲
+  max: 4
+  id: Puncture
+  conflict: ''
+  target: 三叉戟
+  description: 对壳类生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'216':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 岩浆'
+  max: 1
+  id: LavaArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生滴落的岩浆粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'217':
+  type: 被动
+  rarity: 普通
+  name: 筛选
+  max: 4
+  id: StoneSwitcher
+  conflict: '精准采集; 洗炼; '
+  target: 镐
+  description: 挖掘石头时有概率掉落其他种类的岩石
+  enable: true
+  grindstoneable: true
+  params: '掉落物: (andesite,granite,diorite)/触发几率: 50.0%/作用对象: (stone,deepslate)/'
+'218':
+  type: 主动
+  rarity: 史诗
+  name: 触怒
+  max: 3
+  id: Quake
+  conflict: ''
+  target: 剑
+  description: '§e右击§7对周边生物造成范围真实伤害（冷却时间: §a40秒§7）'
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 9.0点/粒子效果: (CRIT_MAGIC)/粒子数量: 2.0/释放音效: (ENTITY_ENDER_DRAGON_GROWL)/冷却时间:
+    40.0秒/范围: 5.0格/'
+'219':
+  type: 被动
+  rarity: 精良
+  name: 吸星
+  max: 1
+  id: Telekinesis
+  conflict: ''
+  target: 斧, 铲, 锄, 剑, 弩, 镐, 三叉戟, 弓
+  description: 使掉落物和经验直接进入背包
+  enable: true
+  grindstoneable: true
+  params: '是否对玩家生效: (true)/'
+'220':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 爱心'
+  max: 1
+  id: HeartArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生爱心粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'221':
+  type: 被动
+  rarity: 史诗
+  name: 偏光
+  max: 4
+  id: Deflection
+  conflict: '守恒; '
+  target: 盾牌
+  description: 反弹一部分抵挡的伤害并使盾牌进入冷却期
+  enable: true
+  grindstoneable: true
+  params: '冷却时间: 4.0秒/比例: 20.0%/'
+'222':
+  type: 被动
+  rarity: 普通
+  name: 拆弹
+  max: 4
+  id: Defusion
+  conflict: '魄力; 锋利; 圣水; 力量; 利刃; 终末; 偏激; 剿蛛; 节肢杀手; 屠宰; 穿刺; 亡灵杀手; 锯齿; '
+  target: 斧, 剑, 三叉戟, 弓
+  description: 对爬行者的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'223':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 地狱'
+  max: 1
+  id: NetherArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生地狱门的粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'224':
+  type: 被动
+  rarity: 史诗
+  name: 穿颅
+  max: 6
+  id: Cerebral
+  conflict: '穿心; '
+  target: 弩, 三叉戟, 弓
+  description: 射出的箭矢爆头伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+'225':
+  type: 被动
+  rarity: 史诗
+  name: 格挡
+  max: 3
+  id: Parry
+  conflict: ''
+  target: 剑
+  description: 手持剑时受到的伤害降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.7/'
+'226':
+  type: 被动
+  rarity: 精良
+  name: 宙斯
+  max: 3
+  id: Zeus
+  conflict: ''
+  target: 剑, 弩, 弓
+  description: 射出的箭矢有概率召唤闪电攻击对手
+  enable: true
+  grindstoneable: true
+  params: '真实伤害: 5.0点/触发几率: 9.0%/'
+'227':
+  type: 被动
+  rarity: 精良
+  name: 激励
+  max: 3
+  id: Frenzy
+  conflict: ''
+  target: 剑
+  description: 击杀生物后获得力量效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 120.0刻/效果等级: 3.0级/'
+'228':
+  type: 原版
+  rarity: 精良
+  name: 深海探索者
+  max: 3
+  id: depth_strider
+  conflict: '冰霜行者; 灵魂疾行; '
+  target: 靴子
+  description: 增加水下行走速度
+  enable: true
+  grindstoneable: true
+  params: ''
+'229':
+  type: 被动
+  rarity: 精良
+  name: 钝化
+  max: 6
+  id: Chopless
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 来自斧的伤害降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.7/'
+'230':
+  type: 被动
+  rarity: 史诗
+  name: 水花
+  max: 4
+  id: Splash
+  conflict: '智识; '
+  target: 三叉戟
+  description: 在落地处造成溅射伤害
+  enable: true
+  grindstoneable: true
+  params: '溅射伤害: 4.0点/范围: 4.0格/'
+'231':
+  type: 被动
+  rarity: 罕见
+  name: 余震
+  max: 2
+  id: Tectonic
+  conflict: '摔落保护; '
+  target: 靴子
+  description: 受到摔落伤害时对周围的生物造成伤害
+  enable: true
+  grindstoneable: true
+  params: '溅射伤害: 4.0点/范围: 4.0格/'
+'232':
+  type: 被动
+  rarity: 罕见
+  name: 脱身
+  max: 6
+  id: Disappear
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 在低血量时获得隐身效果
+  enable: true
+  grindstoneable: true
+  params: '最低血量: ((0.05×6)×最大血量)点/生效周期: 100.0刻/'
+'233':
+  type: 被动
+  rarity: 普通
+  name: 终末
+  max: 4
+  id: EnderSlayer
+  conflict: '亡灵杀手; 锋利; 利刃; 拆弹; 偏激; 节肢杀手; '
+  target: 斧, 剑
+  description: 对末地生物的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'234':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 音符'
+  max: 1
+  id: MusicArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生音符盒粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'235':
+  type: 被动
+  rarity: 普通
+  name: 剿蛛
+  max: 4
+  id: Arachnid
+  conflict: '魄力; 圣水; 力量; 破魔; 分解; 锯齿; 屠宰; 穿刺; '
+  target: 三叉戟, 弓
+  description: 对蜘蛛的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×3.0/'
+'236':
+  type: 被动
+  rarity: 罕见
+  name: 啜食
+  max: 6
+  id: Famine
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率使对手获得饥饿效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 240.0刻/触发几率: 18.0%/是否跟随攻击冷却: (true)/效果等级: 3.5级/'
+'237':
+  type: 被动
+  rarity: 罕见
+  name: 雪霜
+  max: 3
+  id: StrayAspect
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率使对手获得缓慢效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/触发几率: 9.0%/是否跟随攻击冷却: (true)/效果等级: 3.0级/'
+'238':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 诡异'
+  max: 1
+  id: WarpedArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生诡异森林粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'239':
+  type: 被动
+  rarity: 普通
+  name: 灵犀
+  max: 1
+  id: Fetching
+  conflict: ''
+  target: 头盔
+  description: 使宠物狼击杀生物的掉落直接进入背包
+  enable: true
+  grindstoneable: true
+  params: '是否对玩家生效: (true)/'
+'240':
+  type: 被动
+  rarity: 罕见
+  name: 导电
+  max: 5
+  id: Voltage
+  conflict: '原生; '
+  target: 剑
+  description: 对穿着铁、金装备的目标的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×(1+0.02×5×数量)/'
+'241':
+  type: 被动
+  rarity: 精良
+  name: 校准
+  max: 4
+  id: ShotAssist
+  conflict: ''
+  target: 头盔, 靴子, 胸甲, 护腿
+  description: 射出的箭矢造成的伤害更高
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.06/'
+'242':
+  type: 被动
+  rarity: 精良
+  name: 麻痹
+  max: 3
+  id: Paralyze
+  conflict: ''
+  target: 盾牌
+  description: 抵挡伤害时有概率使攻击者获得挖掘疲劳效果
+  enable: true
+  grindstoneable: true
+  params: '持续时间: 60.0刻/触发几率: 9.0%/效果等级: 3.0级/'
+'243':
+  type: 被动
+  rarity: 精良
+  name: 硬化
+  max: 4
+  id: Reinforcement
+  conflict: ''
+  target: 鞘翅
+  description: 受到的伤害降低
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×0.8/'
+'244':
+  type: 被动
+  rarity: 精良
+  name: 引爆
+  max: 3
+  id: Volatile
+  conflict: ''
+  target: 剑
+  description: 在攻击时有概率释放爆炸冲击波
+  enable: true
+  grindstoneable: true
+  params: '是否破坏方块: (false)/触发几率: 9.0%/是否引发火焰: (false)/是否跟随攻击冷却: (true)/规模/力度: 1.5/'
+'245':
+  type: 被动
+  rarity: 精良
+  name: 破军
+  max: 3
+  id: Carve
+  conflict: '碎星; 暴戾; '
+  target: 斧
+  description: 暴击时提升伤害并溅射至周围实体
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.15/是否跟随攻击冷却: (true)/范围: 1.5格/溅射伤害: 30.0%/'
+'246':
+  type: 粒子
+  rarity: 皮肤
+  name: '皮肤: 愉悦'
+  max: 1
+  id: VillagerArtifact
+  conflict: ''
+  target: 斧, 鞘翅, 剑, 靴子, 弩, 镐, 三叉戟, 弓
+  description: 产生村民快乐粒子
+  enable: true
+  grindstoneable: true
+  params: '数量/规模: 1.0/'
+'247':
+  type: 原版
+  rarity: 普通
+  name: 引雷
+  max: 1
+  id: channeling
+  conflict: '激流; '
+  target: 三叉戟
+  description: 在雨天召唤闪电攻击生物，仅在雷暴时生效
+  enable: true
+  grindstoneable: true
+  params: ''
+'248':
+  type: 被动
+  rarity: 传奇
+  name: 锯齿
+  max: 3
+  id: Serrated
+  conflict: '圣水; 剿蛛; 穿刺; '
+  target: 三叉戟
+  description: 三叉戟造成的伤害提升
+  enable: true
+  grindstoneable: true
+  params: '伤害倍率: ×1.3/'
+</code></pre>
