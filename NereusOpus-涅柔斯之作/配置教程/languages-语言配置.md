@@ -2,13 +2,15 @@
 title: 语言文件配置
 description: 
 published: true
-date: 2022-06-29T07:05:11.623Z
+date: 2022-06-29T07:05:31.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-29T07:05:11.623Z
 ---
 
-本文主要简述NereusOpus默认配置中，涉及到语言配置的部分。
+> 本文主要简述NereusOpus默认配置中，涉及到语言配置的部分。
+{.is-success}
+
 ## 基础配置
 ```yaml
 prefix: "§7§l[§a§lNereusOpus§7§l] "
