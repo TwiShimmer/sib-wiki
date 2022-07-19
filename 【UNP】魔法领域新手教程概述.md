@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: false
-date: 2022-07-19T02:02:10.029Z
+date: 2022-07-19T02:04:45.454Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-01T13:32:51.477Z
@@ -81,8 +81,6 @@ dateCreated: 2022-07-01T13:32:51.477Z
 > 任务：附魔一次，并将附魔物品在主页面左上角“附魔介绍”所提供的速查页面中导入查阅
 奖励：随机普通附魔书x2，500游戏币
 {.is-info}
-
-
 
 ## 进阶教程
 
