@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-08-05T05:36:32.642Z
+date: 2022-08-05T05:39:56.090Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -35,7 +35,7 @@ dateCreated: 2022-04-06T02:59:20.150Z
 ★ <samp>支持自定义脚本，你想过一条指令写出整个商店系统么？</samp>
 {.is-success}
 
-> **[EnchantIntensifier 附魔强化系统](/EnchantIntensify-附魔强化/主页) （88￥ 可选-全端口28￥）|** 完成度：<progress value="65" max="100" contenteditable="false"></progress>
+> **[EnchantIntensifier 附魔强化系统](/EnchantIntensify-附魔强化/主页) （128￥ 可选-全端口38￥）
 ★ <samp>基于附魔等级的渐进式强化书，兼容更多附魔</samp>
 ★ <samp>支持自定义成功率破碎率和强化物品格式，附带增幅石和DEF机制</samp>
 {.is-success}
