@@ -2,7 +2,7 @@
 title: 夏日冰熊开发组-主页
 description: 哼，哼，哼，啊啊啊啊啊啊啊啊啊啊啊啊啊
 published: true
-date: 2022-08-05T05:42:37.589Z
+date: 2022-08-05T05:42:54.859Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-06T02:59:20.150Z
@@ -17,7 +17,6 @@ dateCreated: 2022-04-06T02:59:20.150Z
 【友情链接】
 强力宝石插件 | YiMiner | QQ：386029724
 物美价廉服务器 | 次元互联 | 群：534199715
-
 
 # 作品
 > 目前，我们致力于新一代附魔插件 **NereusOpus** 的开发。
@@ -49,7 +48,6 @@ dateCreated: 2022-04-06T02:59:20.150Z
 > **[EnchantmentSeperator 附魔分离系统](/夏日冰熊-轻量插件集/RealMoney-实体货币) |** 完成度：<progress value="20" max="100" contenteditable="false"></progress>
 ★ 基于附魔的分离卸载玩法
 {.is-info}
-
 
 ### 即将推出
 > **[RealMoney 实体货币](/夏日冰熊-轻量插件集/RealMoney-实体货币) |** 完成度：<progress value="90" max="100" contenteditable="false"></progress>
